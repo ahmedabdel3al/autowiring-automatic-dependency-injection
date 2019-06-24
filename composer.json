@@ -1,0 +1,17 @@
+{
+    "name": "boly/autowiring",
+    "authors": [
+        {
+            "name": "Ahmed",
+            "email": "ahmed.mostafa@code95.info"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper":"^3.3"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\":"app"
+        }
+    }
+}
